@@ -1,1 +1,0 @@
-import{t as e}from"./reactivity-fnqY.js";const t=document.createRange();var n=class{constructor(e,t,n){this.template=e,this.cb=t,this.layout=n}async render(n,r){let i=e({}),a=document.getElementById(n)||window.nijor.root,o=await this.template(r,i);if(!o)return;let s=t.createContextualFragment(o);a.replaceChildren(s),await this.cb(r,i)}};export{n as t};
